@@ -15,5 +15,10 @@ public class helloController {
 	public String helloWorld() {
 		return "Hello World Mother fucker";
 	}
-
+	
+	
+	@RequestMapping("/test")
+	public String test() {
+		return "test";
+	}
 }
